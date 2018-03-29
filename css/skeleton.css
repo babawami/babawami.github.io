@@ -529,13 +529,18 @@ there.
 
 
 /* Larger than mobile */
-@media (max-width: 414px) {
+@media (max-width: 547px) {
+
 .container{
   width: auto;
 }
 
 body{
   width: 100%;
+}
+
+#shift{
+  padding-left: 4px;
 }
 
 .header{
@@ -550,13 +555,13 @@ body{
 
 
   .fa-mobile{
-    margin: 0.2em;
+    /*margin: 0.2em;*/
     font-size: 18px;
     float: left
   }
 
   .fa-envelope{
-    margin:0.2em;
+    /*margin:0.2em;*/
     font-size: 18px;
     float: left;
   }
@@ -573,6 +578,10 @@ body{
 
 .Nav i  {
   display: none;
+}
+
+.six.columns{
+  width: 90%;
 }
 
 
@@ -594,6 +603,21 @@ body{
   .fa-envelope{
     margin:0.2em;
     font-size: 18px;
+    float: left;
+  }
+
+}
+
+@media (max-width: 340px){
+  .fa-mobile{
+
+    font-size: 15px;
+    float: left
+  }
+
+  .fa-envelope{
+
+    font-size: 15px;
     float: left;
   }
 
