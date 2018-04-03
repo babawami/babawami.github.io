@@ -412,6 +412,10 @@ hr {
   color: #ffff00;
   }
 
+  .four.columns.Nav a:target{
+  color: red;
+  }
+
   .four.columns.Nav {
     padding-top: 15px;
   }
@@ -455,7 +459,7 @@ hr {
   border-bottom: 1px solid;
 }
  .work img{
-  width: 95%;
+  width: 100%;
  }
 
  .work p{
